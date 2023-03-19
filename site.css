@@ -1,0 +1,52 @@
+/**
+    Title: site.css
+    Author: Jocelyn Dupuis
+    Date: 3/16/2023
+    Description: Styling for the landing page index.html file
+*/
+
+body {
+  font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+/**
+  Styling for container
+*/
+.container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/**
+Styling for headings 1-4
+*/
+h1, h2, h3, h4 {
+  background-color: #3C275A;
+  color: white;
+  border: 1px solid #D6A800;
+  padding: 10px;
+}
+
+/**
+Styling for list/anchor tag
+*/
+li {
+  color: #453674;
+  text-decoration: none;
+}
+
+/**
+Styling for hover list/anchor tag
+*/
+li:hover {
+  background-color: #D6A800;
+  color: #4F3674;
+}
+
+/**
+Styling for visited list/anchor tag
+*/
+li:visited {
+  color: #3C275A;
+}
