@@ -5,6 +5,10 @@
     Description: Some assignments may be reusing these styles
 */
 
+body {
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
 /**
 Styling for card 
 */
@@ -21,6 +25,7 @@ Styling for card title
   font-size: 2em;
   color: #4F3674;
   font-weight: 400;
+  padding: 5-px;
 }
 
 /**
@@ -101,3 +106,44 @@ Styling for the form fields
 .form-field {
   padding: 20px;
 }
+
+/**
+Styling for anchor/return button
+*/
+.return-home {
+  color: #4F3674;
+  text-decoration: none;
+}
+
+/**
+Styling for anchor/return button hover
+*/
+.return-home:hover {
+  background-color: #D6A800;
+  color: #4F3674
+}
+
+/**
+Styling for anchor/return button visited
+*/
+.return-home:visited {
+  color: #3C275A
+}
+
+.app-header {
+  text-align: center;
+  font-weight: 400;
+}
+
+/**
+Styling for drop down menu
+*/
+.drop-down-menu {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
