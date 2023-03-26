@@ -1,0 +1,91 @@
+<!--
+    Title: dupuis-payroll.html
+    Author: Jocelyn Dupuis
+    Date: 3/23/2023
+    Description: Interface for payroll program
+-->
+
+
+<!--
+  To set the document type and language
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  To give page a title and to link style sheet(s) and Google font kit to page
+-->
+<head>
+    <title>WEB 231 - Enterprise JavaScript I: Values and Variables</title>
+    <link href="dupuis-payroll.css" type="text/css" rel="stylesheet">
+    <link href="global.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+      Main container for document
+      Headings (H1 & 3 H3)
+      Use of three unordered lists for 3 employee records
+      For styling refer to dupuis-payroll.css
+      For variables refer to dupuis-payroll.js
+    -->
+    <div id="container">
+
+      <h1 class="app-header" id="payroll-header">Payroll System</h1>
+
+      <!--
+        Employee record 1 Ludwig information (card 1)
+      -->
+      <div class="card">
+          <div class="card-title"><h3>Employee record 1</h3></div>
+              <ul>
+                <li id="firstName-beethoven"></li>
+                <li id="lastName-beethoven"></li>
+                <li id="address-beethoven"></li>
+                <li id="date-beethoven"></li>
+                <li id="payRate-beethoven"></li>
+              </ul>
+        </div>
+
+      <!--
+        Employee record 2 Bach information (card 2)
+      -->
+      <div class="card">
+        <div class="card-title"><h3>Employee record 2</h3></div>
+            <ul>
+              <li id="firstName-bach"></li>
+              <li id="lastName-bach"></li>
+              <li id="address-bach"></li>
+              <li id="date-bach"></li>
+              <li id="payRate-bach"></li>
+            </ul>
+      </div>
+
+      <!--
+        Employee record 3 Wolfgang information (card 3)
+      -->
+      <div class="card">
+        <div class="card-title"><h3>Employee record 3</h3></div>
+            <ul>
+              <li id="firstName-mozart"></li>
+              <li id="lastName-mozart"></li>
+              <li id="address-mozart"></li>
+              <li id="date-mozart"></li>
+              <li id="payRate-mozart"></li>
+            </ul>
+      </div>
+
+    </div>
+
+    <!--
+        Anchor element that's a clickable link to return home
+      -->
+      <a href="" class="return-home">Return</a>
+
+      <script src="dupuis-payroll.js"></script>
+</body>
+</html>

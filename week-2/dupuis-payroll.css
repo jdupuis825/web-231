@@ -1,0 +1,17 @@
+/**
+    Title: dupuis-payroll.css
+    Author: Jocelyn Dupuis
+    Date: 3/23/2023
+    Description: Styling for the landing page payroll.html file
+*/
+
+
+/** Styling for unordered list */
+ul {
+  border: 1px dotted red;
+}
+
+/** Styling for title header */
+#payroll-header {
+  text-align: center;
+}
