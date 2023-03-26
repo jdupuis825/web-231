@@ -5,8 +5,21 @@
     Description: Some assignments may be reusing these styles
 */
 
+/**
+Styling for the body of the page
+*/
 body {
   font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+/**
+Styling for headings
+*/
+h1, h2, h3, h4 {
+  background-color: #3C275A;
+  color: white;
+  border: 1px solid #D6A800;
+  padding: 10px;
 }
 
 /**
