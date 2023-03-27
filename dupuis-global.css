@@ -34,7 +34,7 @@ Styling for card
 Styling for card title
 */
 .card-title {
-  text-align: center;
+  /**text-align: center;*/
   font-size: 2em;
   color: #4F3674;
   font-weight: 400;
