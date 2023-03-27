@@ -5,6 +5,22 @@
     Description: Styling for the landing page payroll.html file
 */
 
+/**
+Styling for the body of the page
+*/
+body {
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+/**
+Styling for Headings 1 & 3
+*/
+h1, h3 {
+    background-color: #3C275A;
+    color: white;
+    border: #D6A800 solid 1px;
+    padding: 10px;
+}
 
 /** Styling for unordered list */
 ul {
@@ -14,4 +30,26 @@ ul {
 /** Styling for title header */
 #payroll-header {
   text-align: center;
+}
+
+/**
+Styling for the anchor/return button
+*/
+.return-home {
+    color: #4F3674;
+}
+
+/**
+Styling for the anchor/return button hover
+*/
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+/**
+Styling for the anchor/return button visited
+*/
+.return-home:visited {
+    color: #3C275A
 }
