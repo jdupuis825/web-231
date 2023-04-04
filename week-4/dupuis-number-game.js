@@ -19,7 +19,7 @@ function generateRndNum() {
 function chkGuess() {
   const msgLessThan = "The number is less than " + document.getElementById('userNumber').value
   const msgGreaterThan = "The number is greater than " + document.getElementById('userNumber').value
-  const msgCongrats = "Congratulations! You picked the correct number! " + document.getElementById('userNumber').value
+  const msgCongrats = "Congratulations! You picked the correct number!" 
   const guess = document.getElementById('userNumber').value
 
   // Using and if, else if, and else expressions to compare the users guess against the random generated number to display message
