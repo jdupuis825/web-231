@@ -1,0 +1,88 @@
+<!--
+    Title: dupuis-bookstore.html
+    Author: Jocelyn Dupuis
+    Date: 04/18/2023
+    Description: Interface for Bookstore App
+-->
+
+
+<!--
+  To set the document type and language
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+  To give page a title and to link style sheet(s) and Google font kit to page
+-->
+<head>
+    <title>WEB 231 - Enterprise JavaScript I: Bookstore App</title>
+    <link href="dupuis-bookstore.css" type="text/css" rel="stylesheet">
+    <link href="dupuis-global.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+      Main container for document
+      Headings 1 & 2
+      Two card div(s)
+      Label, select element (dropdown menu), button and button
+      For styling refer to dupuis-bookstore.css
+      For function and if else statements refer to dupuis-bookstore.js
+    -->
+    <div id="container">
+
+      <h1 class="app-header" id="game-header">Welcome to the Bookstore App</h1>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="game-card-title"><H2>My Favorites</h2></div>
+
+          <div class="form">
+            <div class="form-field">
+            <label>Choose a listing:</label>
+              <select name="bookstore-option" class="drop-down-menu" id="bookstore-option">
+                <option value="">--Select--</option>
+                <option value="books">Top 3 Favorite Books</option>
+                <option value="authors">Top 3 Favorite Authors</option>
+                <option value="publishers">Top 3 Favorite Publishers</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <button type="button" class="btn btn-primary full-width" id="bookstore-button">Display Listing</button>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="results">
+        <div class="card">
+          <div class="game-card-title"><h2>Results</h2></div>
+          <div class="card-content">
+            <div id="form-results"></div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <!--
+      Anchor element that's a clickable link to return home
+    -->
+    <a href="https://jdupuis825.github.io/web-231/" class="return-home">Return</a>
+
+    <!--
+      Script element to link JavaScript file with dupuis-favorites HTML file
+    -->
+      <script src="dupuis-bookstore.js"></script>
+
+</body>
+</html>
